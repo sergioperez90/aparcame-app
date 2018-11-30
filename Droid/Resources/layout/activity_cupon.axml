@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main_content"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Canjear cupón" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cupon" />
+    <TextView
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si tienes un código, este es el sitio para utilizarlo" />
+    <EditText
+        android:textColor="@color/primaryDarkColor"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Código de la promoción" />
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryDarkColor"
+        android:text="Aplicar cupón" />
+</LinearLayout>

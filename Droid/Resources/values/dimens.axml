@@ -1,0 +1,11 @@
+﻿<resources>
+
+    <dimen name="tamanyo_numero_disp">18dp</dimen>
+    <dimen name="ancho_canvas">40dp</dimen>
+    <dimen name="alto_canvas">70dp</dimen>
+	<dimen name="posXmenor_num">15dp</dimen>
+	<dimen name="posX_num">10dp</dimen>
+	<dimen name="posXMayor_num">5dp</dimen>
+	<dimen name="posY_num">26dp</dimen>
+
+</resources>

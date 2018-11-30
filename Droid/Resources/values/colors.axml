@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="window_background">#fff</color>
+
+  <color name="primaryColor">#3293fa</color>
+  <color name="primaryDarkColor">#2b78ca</color>
+  <color name="primaryLightColor">#fff</color>
+  
+  <color name="accentColor">#00BCD4</color>
+  <color name="colorSecondaryText">#727272</color>
+  <color name="colorTextIcon">#FFFFFF</color>
+  <color name="md_grey_300">#E0E0E0</color>
+  <color name="md_white_1000">#ffffff</color>
+
+    <color name="destacadoRojo">#b21340</color>
+    <color name="destacadoVerde">#13b265</color>
+	<color name="destacadoNaranja">#e97707</color>
+</resources>

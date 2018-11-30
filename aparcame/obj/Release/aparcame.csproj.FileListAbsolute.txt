@@ -1,0 +1,4 @@
+/Users/sergio/Projects/aparcame/aparcame/bin/Release/aparcame.dll
+/Users/sergio/Projects/aparcame/aparcame/bin/Release/Newtonsoft.Json.dll
+/Users/sergio/Projects/aparcame/aparcame/bin/Release/Newtonsoft.Json.xml
+/Users/sergio/Projects/aparcame/aparcame/obj/Release/aparcame.dll

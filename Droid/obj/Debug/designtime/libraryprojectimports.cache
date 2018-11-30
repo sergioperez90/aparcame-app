@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/1/jl/bin/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/10/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/11/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/12/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/13/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/14/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/15/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/16/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/17/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/18/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/19/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/2/jl/okhttp-2.4.0.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/20/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/21/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/22/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/3/jl/okio-1.5.0.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/4/jl/picasso-2.5.2.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/6/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/7/jl/support-annotations.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/8/jl/classes.jar</Jar>
+    <Jar>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/9/jl/classes.jar</Jar>
+  </Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/1/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/11/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/14/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/16/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/17/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/19/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/20/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/21/jl/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/lp/1/jl/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/11.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/14.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/16.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/17.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/sergio/Projects/aparcame/Droid/obj/Debug/lp/21.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

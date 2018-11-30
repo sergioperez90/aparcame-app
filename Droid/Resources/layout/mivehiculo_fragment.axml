@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/tipoVehiculo_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo de vehículo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp" />
+            <EditText
+                android:id="@+id/marca_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marca del vehículo"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+            <EditText
+                android:id="@+id/modelo_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Modelo del vehículo"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+            <EditText
+                android:id="@+id/combustible_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Combustible del vehículo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

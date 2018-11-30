@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.aparcame.aparcame">
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="24" />
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <!-- We need to be able to download map tiles and access Google Play Services-->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- Allow the application to access Google web-based services. -->
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <!-- Google Maps for Android v2 will cache map tiles on external storage -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Permission to receive remote notifications from Google Play Services -->
+  <!-- Notice here that we have the package name of our application as a prefix on the permissions. -->
+  <uses-permission android:name=".permission.MAPS_RECEIVE" />
+  <permission android:name=".permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+  <!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Apárcame" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAJ3O8KvXQkDQCJiwh7JArFltC_GtdS8mw" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <service android:name="com.aparcame.aparcame.BackgroundService" />
+    <activity android:icon="@mipmap/icon" android:label="Apárcame" android:theme="@style/AppTheme" android:name="md5e1a48c8139ae0da8bed225239aa75606.MainActivity" />
+    <receiver android:enabled="true" android:exported="false" android:name="md5e1a48c8139ae0da8bed225239aa75606.Recibidor">
+      <intent-filter>
+        <action android:name="com.aparcame.aparcame.BackgroundService" />
+      </intent-filter>
+    </receiver>
+    <activity android:noHistory="true" android:theme="@style/AppTheme.Splash" android:name="md5e1a48c8139ae0da8bed225239aa75606.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="PreRegisterActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.PreRegisterActivity" />
+    <activity android:label="BaseActivity" android:name="md57574ea7997e8a871fc54d9e08899937e.BaseActivity" />
+    <activity android:label="MiMaleteroActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.MiMaleteroActivity" />
+    <activity android:label="DetalleParkingActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.DetalleParkingActivity" />
+    <activity android:label="DetalleOfertaActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.DetalleOfertaActivity" />
+    <activity android:label="PerfilActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.PerfilActivity" />
+    <activity android:label="PromocionesActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.PromocionesActivity" />
+    <activity android:label="CanjearCuponActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.CanjearCuponActivity" />
+    <activity android:label="FiltroMapaActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.FiltroMapaActivity" />
+    <activity android:label="RegistroUsuarioActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.RegistroUsuarioActivity" />
+    <activity android:label="LoginActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.LoginActivity" />
+    <activity android:label="ConduciendoActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.ConduciendoActivity" />
+    <activity android:label="AparcadoActivity" android:theme="@style/AppTheme" android:name="md57574ea7997e8a871fc54d9e08899937e.AparcadoActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.aparcame.aparcame.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.aparcame.aparcame" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+</manifest>

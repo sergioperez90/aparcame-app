@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="@color/primaryColor"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/miPerfil"
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/perfil" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_account_circle_white_48dp" />
+            <TextView
+                android:id="@+id/nombre_header"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/email_header"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mail@aparcame.com"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/miMaletero"
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/maleteroIcon" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/imagen_destacado"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/destacado_prueba" />
+        <ImageView
+            android:id="@+id/mascara_destacado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mascara_destacado_rojo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lugar_destacado"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ca Sergio" />
+            <TextView
+                android:id="@+id/poblacion_destacado"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Altea (Alicante) 03590" />
+            <TextView
+                android:id="@+id/puntos_destacado"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1200pt" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_destacado"
+            android:layout_alignParentBottom="true"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/destacadoRojo">
+            <TextView
+                android:id="@+id/titulo_destacado"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2x1 en Hamburguesa" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

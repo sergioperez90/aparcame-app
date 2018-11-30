@@ -1,0 +1,7 @@
+/Users/sergio/Projects/aparcame/aparcame/bin/Debug/aparcame.dll
+/Users/sergio/Projects/aparcame/aparcame/bin/Debug/aparcame.dll.mdb
+/Users/sergio/Projects/aparcame/aparcame/bin/Debug/Newtonsoft.Json.dll
+/Users/sergio/Projects/aparcame/aparcame/bin/Debug/Newtonsoft.Json.xml
+/Users/sergio/Projects/aparcame/aparcame/obj/Debug/aparcame.csprojResolveAssemblyReference.cache
+/Users/sergio/Projects/aparcame/aparcame/obj/Debug/aparcame.dll
+/Users/sergio/Projects/aparcame/aparcame/obj/Debug/aparcame.dll.mdb

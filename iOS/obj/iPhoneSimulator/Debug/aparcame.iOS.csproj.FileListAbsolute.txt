@@ -1,0 +1,13 @@
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/aparcame.iOS.exe
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/aparcame.iOS.exe.mdb
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/aparcame.dll
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/aparcame.dll.mdb
+/Users/sergio/Projects/aparcame/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/aparcame.iOS.csprojResolveAssemblyReference.cache
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/aparcame.iOS.exe
+/Users/sergio/Projects/aparcame/iOS/obj/iPhoneSimulator/Debug/aparcame.iOS.exe.mdb

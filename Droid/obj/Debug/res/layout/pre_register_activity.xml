@@ -1,0 +1,25 @@
+<LinearLayout android:orientation="vertical" android:background="@color/primaryColor" android:layout_width="match_parent" android:gravity="bottom" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><ImageView android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginLeft="15dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:src="@drawable/logo_blanco" /><!--
+    
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:background="@drawable/fondo_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_facebook" />
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión con Facebook"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>--><LinearLayout android:padding="20dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal"><Button android:layout_marginRight="5dp" android:background="@drawable/boton_crear_cuenta" android:textColor="#fff" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crear cuenta" android:id="@+id/registro" /><Button android:layout_marginLeft="5dp" android:background="@drawable/boton_iniciar_sesion" android:textColor="#fff" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Iniciar sesión" android:id="@+id/iniciar_sesion" /></LinearLayout><ImageView android:gravity="bottom|center_horizontal" android:layout_alignParentBottom="true" android:scaleType="fitEnd" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ciudad_coche" /></LinearLayout>
