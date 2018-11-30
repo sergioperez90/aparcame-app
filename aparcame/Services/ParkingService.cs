@@ -19,12 +19,13 @@ namespace aparcame.Services
 				return httpClient;
 			}
 		}
-
-       
-
+        
+        /// <summary>
+        /// Metodo que obtiene los parkings
+        /// </summary>
+        /// <returns>The parkings.</returns>
         public async Task<List<Parking>> DameParkings()
         {
-            
             try
             {
                 //CREACIÓN URL ENDPOINT
@@ -46,6 +47,11 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo que obtiene los parkings por id
+        /// </summary>
+        /// <returns>El parking por identificador.</returns>
+        /// <param name="id">Identifier.</param>
         public async Task<Parking> DameParkingPorId(string id)
         {
             try
@@ -70,6 +76,13 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo que comprueba los parkings
+        /// </summary>
+        /// <returns>El parking.</returns>
+        /// <param name="latitud">Latitud.</param>
+        /// <param name="longitud">Longitud.</param>
+        /// <param name="cp">Cp.</param>
 		public async Task<int> ComprobarParking(double latitud, double longitud, string cp)
 		{
 			try
@@ -97,6 +110,11 @@ namespace aparcame.Services
 			}
 		}
 
+        /// <summary>
+        /// Metodo que resta el sitio
+        /// </summary>
+        /// <returns>El sitio.</returns>
+        /// <param name="id">Identifier.</param>
         public async Task<bool> RestarSitio(int id)
         {
 			try
@@ -126,6 +144,12 @@ namespace aparcame.Services
 			}
         }
 
+        /// <summary>
+        /// Metodo que suma el sitio
+        /// </summary>
+        /// <returns>El sitio restado.</returns>
+        /// <param name="id">Identifier.</param>
+        /// <param name="tipo">Tipo.</param>
         public async Task<bool> SumarSitio(int id, int tipo)
         {
             try

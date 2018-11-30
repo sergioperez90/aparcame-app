@@ -11,6 +11,5 @@ namespace aparcame.Services
         Task<bool> AddVehiculo(int tipo_vehiculo, string id_usuario);
         Task<bool> SumarPuntos(string puntos, string id_usuario);
         Task <Vehiculo> DameVehiculoUsuario(string id_usuario);
-
     }
 }

@@ -11,7 +11,6 @@ namespace aparcame.Services
         Task<Parking> DameParkingPorId(string id);
         Task<int> ComprobarParking(double latitud, double longitud, string cp);
         Task<bool> RestarSitio(int id);
-        Task<bool> SumarSitio(int id, int tipo);
-
+        Task<bool> SumarSitio(int id, int tipo);      
     }
 }

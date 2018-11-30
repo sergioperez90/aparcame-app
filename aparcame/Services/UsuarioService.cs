@@ -20,6 +20,12 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo que añade el vehiculo
+        /// </summary>
+        /// <returns>El vehiculo.</returns>
+        /// <param name="tipo_vehiculo">Tipo vehiculo.</param>
+        /// <param name="id_usuario">Identifier usuario.</param>
         public async Task<bool> AddVehiculo(int tipo_vehiculo, string id_usuario)
         {
             try
@@ -49,11 +55,15 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo para obtener el veihiculo del usuario
+        /// </summary>
+        /// <returns>El vehiculo usuario.</returns>
+        /// <param name="id_usuario">Identifier usuario.</param>
         public async Task<Vehiculo> DameVehiculoUsuario(string id_usuario)
         {
             try
-            {
-
+            {            
                 //CREACIÓN URL ENDPOINT
                 string _urlEndpoint = Constants.RestURL + "usuario/vehiculo/?id="+id_usuario;
 
@@ -77,11 +87,16 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo para hacer login
+        /// </summary>
+        /// <returns>El usuario.</returns>
+        /// <param name="email">Email.</param>
+        /// <param name="pass">Pass.</param>
         public async Task<Usuario> Login(string email, string pass)
         {
             try
             {
-
                 //CREACIÓN URL ENDPOINT
                 string _urlEndpoint = Constants.RestURL + "usuario/login";
 
@@ -115,11 +130,17 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo para el registro
+        /// </summary>
+        /// <returns>Verdadero o falso.</returns>
+        /// <param name="nombre">Nombre.</param>
+        /// <param name="email">Email.</param>
+        /// <param name="pass">Pass.</param>
         public async Task<bool> Registro(string nombre, string email, string pass)
         {
             try
             {
-
                 //CREACIÓN URL ENDPOINT
                 string _urlEndpoint = Constants.RestURL + "usuario/registro";
 
@@ -146,6 +167,12 @@ namespace aparcame.Services
             }
         }
 
+        /// <summary>
+        /// Metodo para sumar el sitio
+        /// </summary>
+        /// <returns>Verdadero o falso</returns>
+        /// <param name="puntos">Puntos.</param>
+        /// <param name="id_usuario">Identifier usuario.</param>
         public async Task<bool> SumarPuntos(string puntos, string id_usuario)
         {
             try
@@ -158,8 +185,7 @@ namespace aparcame.Services
                 var values = new Dictionary<string, string>
                 {
                     {"puntos_usuario", puntos},
-                    {"id_usuario", id_usuario},
-                   
+                    {"id_usuario", id_usuario},                  
                 };
 
                 var content = new FormUrlEncodedContent(values);
